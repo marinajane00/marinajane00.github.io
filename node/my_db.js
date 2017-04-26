@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;//得到mongo的客户端
-var DB_CONN_STR = 'mongodb://localhost:27017/users';//mongo的ip及数据库
+var DB_CONN_STR = 'mongodb://localhost:/users';//mongo的ip及数据库
 
 function db(tb,operation,str,callback){
 	//连接表，操作，data，执行
